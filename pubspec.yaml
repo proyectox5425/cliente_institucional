@@ -1,0 +1,12 @@
+name: cliente_institucional
+description: APK institucional con instalación por QR y validación de licencia
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^1.10.5
+  device_info_plus: ^9.0.2
